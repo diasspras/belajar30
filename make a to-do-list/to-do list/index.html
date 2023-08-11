@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://kit.fontawesome.com/e4a21d0c96.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <title>to do list</title>
+</head>
+<body>
+    <div class="container">
+        <div class="to-do-list">
+            <h2>To-Do List <img src="images/icon.png" alt=""></h2>
+            <span><div class="switcher">
+                    <div class="switcher-toggler">
+                        <div class="day-night s-icon">
+                            <i class="bx"></i>
+                        </div>
+                    </div>
+                </div>
+            </span>
+            <div class="row">
+                <input type="text" placeholder="add your list" id="input">
+                <button onclick="addTask()">add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="centang">Tas 1</li>
+                <li>Tas 2</li>
+                <li>Tas 3</li> -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- =========== swithcer =========== -->
+    <!-- =========== file js ============== -->
+    <script src="switcher.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
